@@ -3,9 +3,10 @@
 * Error handling also not comprehensive.
 * Not written any unit tests
 
-* Implemented loosely MVVM pattern
-* Restructured code to put them in logical entity 
-* Cleaned code a bit & fixed crashes
+* Implemented slightly modified version MVP design pattern, note that control flows from UI -> ViewModel -> Model
+* Restructured code to put in logical packages
+* LRU in memmory is cache used for bitmap cacheing, note that this doesnt work for large number of bitmap, to do that we neeed to use disk cacheing.
+* Cleaned code to reuse components & fixed crashes
 
 # Librararies/Languages/extensions which can be used
 * [Kotlin](https://kotlinlang.org/docs/reference/android-overview.html) - Modern language which is now officially supported & advocated by Google
