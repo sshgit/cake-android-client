@@ -23,4 +23,12 @@ Additionally, feel free to refactor and optimise the code where appropriate. Ide
 This is your opportunity to show us how you think and Android app should be architected, please make any changes you feel would benefit the app.
 
 The test should take around 2 hours, certainly no longer than 3 hours. Good luck!
+# Note
+I have not concentrated on UI at all, and also handling of error condition 
+Tried to use clean code methods and MVP(M) model for UI and did little bit of refactoring.
 
+# Librararies/Languages/extensions which can be used
+* [Kotlin](https://kotlinlang.org/docs/reference/android-overview.html) - Modern language which is now officially supported & advocated by Google
+* [RxJava](https://github.com/ReactiveX/RxJava)/[Android architecture components](https://developer.android.com/topic/libraries/architecture/) - reactive programming, this example is perfect example to follow reactive pattern
+* [Glide](https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Glide-Library) - Image loader library
+* [Retrofit 2](https://square.github.io/retrofit/) - Http client for java
