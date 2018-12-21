@@ -1,12 +1,13 @@
-# Note
-* I have not concentrated on UI at all
-* Error handling also not comprehensive.
-* Not written any unit tests
-
+# Notes
+* Updated gradle files to include relevant and latest android versions, and also did refactoring of gradle file for maintainability.
 * Implemented slightly modified version MVP design pattern, note that control flows from UI -> ViewModel -> Model
 * Restructured code to put in logical packages
 * LRU in memmory is cache used for bitmap cacheing, note that this doesnt work for large number of bitmap, to do that we neeed to use disk cacheing.
 * Cleaned code to reuse components & fixed crashes
+* I have not concentrated on UI at all
+* Error handling also not comprehensive.
+* Not written any unit tests
+
 
 # Librararies/Languages/extensions which can be used
 * [Kotlin](https://kotlinlang.org/docs/reference/android-overview.html) - Modern language which is now officially supported & advocated by Google
